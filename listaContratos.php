@@ -21,7 +21,6 @@
                                 <button class="btn-delete"><i class="fas fa-trash"></i></button>
                             </td>
                         </tr>
-                        <!-- Repite las filas según sea necesario -->
                     </tbody>
                 </table>
             </div>

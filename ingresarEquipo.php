@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<!-- Script JavaScript para manejar el envío del formulario -->
+<!-- Script para manejar el envío del formulario -->
 <script>
     function submitForm() {
         var equipoValue = document.getElementsByName('equipo')[0].value.trim();
