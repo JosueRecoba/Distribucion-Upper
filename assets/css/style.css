@@ -386,3 +386,103 @@ th {
 .btngen:hover {
     background-color: #609420;
 }
+
+/* Estilos para pagina de verListas */
+
+.filter-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.filter-section form {
+    display: flex;
+    align-items: center;
+}
+
+.filter-section input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.filter-section button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
+    align-self: center; 
+    margin-top: -20px; 
+}
+
+#buscar {
+    background-color: #E55213;
+}
+
+#buscar:active {
+    background-color: #b7410e;
+}
+
+#limpiar {
+    background-color: #007bff;
+}
+
+#limpiar:active {
+    background-color: #1464b9;
+}
+.button-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px; 
+    font-size: 16px; 
+}
+
+.btn-gd {
+    background-color: #E55213; 
+}
+
+.btn-gd:active {
+    background-color: #C43E10; 
+}
+
+.btn-generate {
+    background-color: #61A60E; 
+}
+
+.btn-generate:active {
+    background-color: #4D8B0F; 
+}
+
+.btn-download {
+    background-color: #e3283b; 
+}
+
+.btn-download:active {
+    background-color: #c82333; 
+}
+
+.btn-print {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61A60E; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.btn-print:active {
+    background-color: #4D8B0F; 
+}
+
+.btn-print i {
+    margin-right: 8px; 
+}

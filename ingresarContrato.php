@@ -12,7 +12,7 @@
     </div>
 </div>
 
-<!-- Script JavaScript para manejar el envío del formulario -->
+<!-- Script para manejar el envío del formulario -->
 <script>
     function submitForm() {
         var contratoValue = document.getElementsByName('contrato')[0].value.trim();
