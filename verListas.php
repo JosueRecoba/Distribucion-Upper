@@ -69,7 +69,7 @@
         <div class="button-group">
             <button class="btn-gd" onclick="guardarDatos()">Guardar datos</button>
             <button class="btn-generate" onclick="generarEtiquetas()">Generar etiquetas</button>
-            <button class="btn-download" onclick="descargarMaster()">Descarga master</button>
+            <button class="btn-download" onclick="window.location.href='tablaMaster.php'">Ir a master</button>
         </div>
     </div>
 </div>

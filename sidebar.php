@@ -1,21 +1,23 @@
+<!-- Resaltar la navegación Activa -->
 <?php
 $current_page = basename($_SERVER['PHP_SELF']);
 
-// Definir las subpáginas para cada página principal
 $subpages = [
     'ingresarContrato.php' => ['listaContratos.php', 'nuevoRegistro.php'],
-    'ingresarEquipo.php' => ['listaEquipos.php', 'nuevoRegistroEquipo.php']
+    'ingresarEquipo.php' => ['listaEquipos.php', 'nuevoRegistroEquipo.php'],
+    'verListas.php' => ['tablaMaster.php', 'imprecionIndividual.php']
 ];
 
 $active_page = $current_page;
 
 foreach ($subpages as $main_page => $sub_page_list) {
-    if (in_array($current_page, $sub_page_list)) {
+    if (in_array($current_page, $sub_page_list) || $current_page === $main_page) {
         $active_page = $main_page;
         break;
     }
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
