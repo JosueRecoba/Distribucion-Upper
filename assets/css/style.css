@@ -487,3 +487,67 @@ th {
     margin-right: 8px; 
 }
 
+/* Estilos para tabla Master  */
+
+.filter-sec {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.filter-sec form {
+    display: flex;
+    align-items: center;
+}
+
+.filter-sec input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.filter-sec button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px; 
+    align-self: center; 
+    margin-top: -20px; 
+}
+
+#pagina-actual {
+    margin: 0 10px; 
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+#anterior {
+    background-color: #E55213;
+}
+
+#anterior:active {
+    background-color: #b7410e;
+}
+
+#siguiente {
+    background-color: #007bff;
+}
+
+#siguiente:active {
+    background-color: #1464b9;
+}
+
+#descargar {
+    background-color: #e3283b; 
+    margin-left: 20px; 
+}
+
+#descargar:active {
+    background-color: #c82333; 
+}
