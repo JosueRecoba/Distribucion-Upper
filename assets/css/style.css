@@ -551,3 +551,103 @@ th {
 #descargar:active {
     background-color: #c82333; 
 }
+
+/* Estilos de Impresión Individual */
+
+.filter-individual {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.filter-individual form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin: 10px 20px; 
+}
+
+.filter-individual form.inline-form {
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.filter-individual input[type="text"],
+.filter-individual input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px; 
+    box-sizing: border-box;
+}
+
+.filter-individual input[type="text"]::placeholder,
+.filter-individual input[type="number"]::placeholder {
+    color: #aaa; 
+}
+
+.filter-individual .id-rango-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-individual .id-rango-container form {
+    margin: 0 10px; 
+}
+
+.filter-individual button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px; 
+}
+
+#buscar {
+    background-color: #E55213;
+}
+
+#buscar:active {
+    background-color: #b7410e;
+}
+
+#limpiar {
+    background-color: #007bff;
+}
+
+#limpiar:active {
+    background-color: #1464b9;
+}
+
+.button-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px; 
+    font-size: 16px; 
+}
+
+.btn-rfg {
+    background-color: #007bff; 
+}
+
+.btn-rfg:active {
+    background-color: #1464b9; 
+}
+
+.btn-ge {
+    background-color: #61A60E; 
+}
+
+.btn-ge:active {
+    background-color: #4D8B0F; 
+}

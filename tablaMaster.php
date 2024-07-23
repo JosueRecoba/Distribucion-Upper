@@ -53,6 +53,38 @@
                         <td>SN</td>
                         <td>123</td>
                     </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nombre del Contrato</td>
+                        <td>Tipo de equipo</td>
+                        <td>Estado</td>
+                        <td>SN</td>
+                        <td>123</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nombre del Contrato</td>
+                        <td>Tipo de equipo</td>
+                        <td>Estado</td>
+                        <td>SN</td>
+                        <td>123</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nombre del Contrato</td>
+                        <td>Tipo de equipo</td>
+                        <td>Estado</td>
+                        <td>SN</td>
+                        <td>123</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nombre del Contrato</td>
+                        <td>Tipo de equipo</td>
+                        <td>Estado</td>
+                        <td>SN</td>
+                        <td>123</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
