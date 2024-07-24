@@ -10,6 +10,71 @@ body {
     height: 100vh;
 }
 
+/* Estilos para la página de login */
+.login-page {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.login-page .container-log {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-page .blue-section {
+    width: 50%;
+    background: linear-gradient(to bottom right, #1e90ff, #242570);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.login-page .form-section-log {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.login-page h2 {
+    margin-bottom: 20px;
+}
+
+.login-page .input-group-log {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login-page .input-group-log input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-page .button-log {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-page .button-log:hover {
+    background-color: #0073e6;
+}
+
 .sidebar {
     width: 250px;
     background: linear-gradient(145deg, #E55213, #B7410E); 
