@@ -1,6 +1,17 @@
-<?php include 'sidebar.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contratos</title>
+    <link rel="icon" href="../assets/img/ICon-Upper.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <?php include '../sidebar.php'; ?>
 
-<div class="containerlist">
+    <div class="containerlist">
         <div class="main-contentlist">
             <h1 class="title">Lista de Contratos</h1>
             <div class="table-container">
@@ -29,3 +40,5 @@
             </div>
         </div>
     </div>
+</body>
+</html>
