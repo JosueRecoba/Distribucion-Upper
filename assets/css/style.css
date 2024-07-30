@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: radial-gradient(circle farthest-corner at 48.4% 47.5%, rgba(122,183,255,1) 0%, rgba(21,83,161,1) 90%);
+    background-image: radial-gradient(circle farthest-corner at 48.4% 47.5%, #242571 0%, #0033A0 90%);
     background-size: cover;
     background-position: center; 
 }
