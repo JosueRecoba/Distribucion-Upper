@@ -24,7 +24,8 @@ foreach ($subpages as $main_page => $sub_page_list) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Distribución Upper Logistics</title>
     <link rel="icon" href="/Proyecto_Distribucion_Upper2/assets/img/ICon-Upper.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/Proyecto_Distribucion_Upper2/assets/css/style.css">
 </head>
 <body>
